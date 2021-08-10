@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.dipay-logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.dipay-logo a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.container {
+    max-width: 100% !important;
+    margin-left: 13vh !important;
+    margin-right: 5% !important;
+}
+
+.container .navbar-brand {
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.navbar-collapse a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.navbar-collapse .btn{
+    border-radius: 15px;
+    width: 6rem;
+    border: none;
+    box-shadow: 0px 0 14px -2px #4b87a9;
+    background: #477da2 !important;
+}
+
+.navbar-text{
+    margin-right: 1rem !important;
+    font-size: 17px !important;
+}
+
+.button-logout{
+    background: #477da2 !important;
+    border-radius: 15px !important;
+    width: 6rem;
+    box-shadow: 0px 0 10px 1px #4b87a9;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.content {
+    padding-bottom: 5vh !important;
+    min-height: inherit;
+}
+
+.content-blog {
+
+}
+
+.landingPage-content {
+    width: 100% !important;
+    left: auto;
+}
+
+.landingPage-content .btn {
+    height: 100% !important;
+    margin: 0px;
+    position: fixed !important;
+    right: 9vh !important;
+    bottom: 6vh !important;
+    width: 80px !important;
+    height: 80px !important;
+    background: #4b87a9 !important;
+    display: flex !important;
+    align-items: center !important;
+    border-radius: 50% !important;
+    text-decoration: none !important;
+    color: white !important;
+    padding-top: 0vh;
+    font-size: 40px !important;
+    box-shadow: 0px 0 20px 0px #4b87a9;
+}
+
+.layout {
+    width: 100%;
+    min-height: 86.6vh !important;
+}
+
+header h1{
+    margin-top: 0px;
+    height: 63px;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    color: black;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    height: 3rem;
+    padding-top:0.8rem;
+    font-weight:lighter;
+}
+
+footer .container {
+    margin-left: 0px !important;
+    width: 100% !important;
+}
+
+.swal2-confirm {
+    background: #477da2 !important;
+    /* color: black !important; */
+}
+
+.swal2-cancel {
+    background: #ae8ba8 !important;
+}
+
+.content-login .card-header{
+    background: none !important;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.create-blog {
+    border: 0 !important;
+    width: 200px;
+    height: 3.5rem !important;
+    background: #477da2 !important;
+    border-radius: 15px !important;
+    box-shadow: 0px 0 10px 1px #4b87a9;
+}
+
+.card-content{
+    background-color: rgba(240, 240, 240, 0.6) !important;
+    border: none !important;
+    min-width: fit-content;
+    max-width: 42%;
+    /* text-align: left; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 15px !important;
+    box-shadow: 0px 0 55px -30px #4b87a9;
+}
+
+.card-content .card-header {
+    font-size: 20px !important;
+    font-weight: 600;
+    border-radius: 15px 15px 0px 0px !important;
+
+}
+
+.card-content .card-footer {
+    border-radius: 0px 0px 15px 15px !important;
+}
+
+.card-header {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border: none !important;
+    font-size: 30px;
+}
+
+.card-footer {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    border: none !important;
+}
+
+.card-login {
+    background-color: white !important;
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: 25%;
+    border: none !Important;
+}
+
+.form-login {
+    margin-top: 1rem;
+    width: 25rem;
+    height: 21rem;
+    color: black !important;
+    text-align: left;
+}
+
+.form-login .form-label {
+    padding-left: 5px;
+}
+
+.input-form {
+    color: black !important;
+    height: 3rem !important;
+    border-radius: 15px !important;
+    box-shadow: 0px 0 8px -2px #4b87a9;
+}
+
+.notLogin-landingPage {
+    height: inherit;
+}
+
+.notLogin-landingPage .btn{
+    border-radius: 17px !important;
+    margin-top: 35vh;
+    height: 3rem;
+}
+
+.card-blog {
+    background-color: white !important;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10vh !important; */
+    background: none !important;
+    border: none !important;
+}
+
+.card-blog .card-header {
+    background: none !important;
+    margin-top: 0.2rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blog-content {
+    font-weight: 600;
+    padding-top: 0px !important;
+    height: fit-content;
+    padding: 1% 8% 0% 8% !important;
+    text-align: left;
+    background: none !important;
+}
+
+.input-titleBlog {
+    color:black !important;
+    height: 3rem !important;
+    box-shadow: 0px 0 8px -2px #4b87a9;
+    border-radius: 10px !important;
+}
+
+.input-textArea {
+    color: black !important;
+    height: 10rem !important;
+    box-shadow: px 0 8px -2px #4b87a9;
+    border-radius: 10px !important;
+}
+
+.button-login {
+    margin-top: 1.6rem;
+    width: 50%;
+    margin-left: 24%;
+    height: 14%;
+    background: #477da2 !important;
+    border-radius: 15px !important;
+    box-shadow: 0px 0 20px 0px #4b87a9;
+}
+
+.button-createBlog {
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    padding-left: 22% !important;
+}
+
+.button-createBlog .btn{
+    width: 20% !important;
+    height: 100% !important;
+    vertical-align: middle;
+    margin-left: 9.4%;
+    margin-right: 5%;
+    background: #477da2 !important;
+    border: none !important;
+    color: white;
+    border-radius: 15px !important;
+    box-shadow: 0px 0 14px -2px #4b87a9;
+}

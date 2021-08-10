@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+}
+
+.backgroung-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: inherit;
+  background-attachment: fixed;
 }
 
 .App-logo {
