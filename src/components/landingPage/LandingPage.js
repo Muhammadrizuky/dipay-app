@@ -11,7 +11,6 @@ export default function LandingPage() {
 
 
     return(
-        <>
             <div className="content">
                 <div className="button-landingPage">
                     {isLogin !== true ? (
@@ -49,6 +48,5 @@ export default function LandingPage() {
                     )
                 })}
             </div>
-        </>
     )
 }
